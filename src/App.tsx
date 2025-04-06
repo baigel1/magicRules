@@ -22,7 +22,7 @@ function App() {
   );
   return (
     <div className="search-page">
-      <SearchBar />
+      <SearchBar placeholder="Ask your question..." />
 
       <div className="loading-container">
         {gdaLoading && <Skeleton count={5} />}
